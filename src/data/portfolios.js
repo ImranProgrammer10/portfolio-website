@@ -57,6 +57,15 @@ const portfolios = [
     // },
     {
         id: 1,
+        category: 'MERN STACK',
+        image: 'https://i.ibb.co/nftMPb0/doctors-portal.png',
+        link1: 'https://github.com/ImranProgrammer10/doctors-portal-client-module-71',
+        link2: 'https://doctors-portal-70652.web.app/',
+        title: 'DCTORS PORTAL',
+        text: 'Created using different technologies such as Material UI, Styled-Components and more...'
+    },
+    {
+        id: 2,
         category: 'React JS',
         image: react1,
         link1: 'https://github.com/ImranProgrammer10/rahmatknittex',
