@@ -22,6 +22,16 @@ function Skills() {
                             text={'90%'}
                         />
                         <ProgressBar 
+                            title={'BOOTSTRAP'}
+                            width={'90%'}
+                            text={'90%'}
+                        />
+                        <ProgressBar 
+                            title={'TAILWIND'}
+                            width={'90%'}
+                            text={'90%'}
+                        />
+                        <ProgressBar 
                             title={'JAVASCRIPT'}
                             width={'85%'}
                             text={'85%'}
@@ -37,13 +47,23 @@ function Skills() {
                             text={'65%'}
                         />
                         <ProgressBar 
-                            title={'React JS'}
+                            title={'EXPRESS JS'}
+                            width={'75%'}
+                            text={'70%'}
+                        />
+                        <ProgressBar 
+                            title={'REACT JS'}
                             width={'75%'}
                             text={'75%'}
                         />
                         <ProgressBar 
                             title={'NODE JS'}
                             width={'70%'}
+                            text={'70%'}
+                        />
+                        <ProgressBar 
+                            title={'REDUX'}
+                            width={'60%'}
                             text={'70%'}
                         />
                         <ProgressBar 

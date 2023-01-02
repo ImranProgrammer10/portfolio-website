@@ -22,7 +22,7 @@ function Resume() {
                     <ResumeItem 
                         year={'2020 - Present'} 
                         title={'Full Stack Web Developer'}
-                        subTitle={'Microsoft Studios'}
+                        subTitle={'Learning'}
                         text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
                     />
                   
