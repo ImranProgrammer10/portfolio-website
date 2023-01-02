@@ -11,6 +11,7 @@ import ResumePage from './Pages/ResumePage';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { IconButton, Switch } from '@material-ui/core';
+import NotFound from './Pages/NotFound';
 
 function App() {
   const [theme, setTheme] = useState('dark-theme');
@@ -73,6 +74,7 @@ function App() {
      
      <Route path='/portfolios' element={ <PortfoliosPage></PortfoliosPage>}></Route> 
      <Route path='/contact' element={ <ContactPage></ContactPage>}></Route> 
+     <Route path='*' element={<NotFound></NotFound>}></Route>
   
 
       </Routes>
