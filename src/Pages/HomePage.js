@@ -1,10 +1,10 @@
-import React from 'react'
-import styled from 'styled-components';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Particle from './Particle';
+import React from 'react';
+import styled from 'styled-components';
 import PrimaryButton from '../Components/PrimaryButton';
+import Particle from './Particle';
  
  
  
@@ -29,13 +29,13 @@ function HomePage() {
                 </a>
                
                 <div className="icons">
-                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100077700041837" className="icon i-facebook">
+                    <a target="_blank" href="https://www.facebook.com/imran.mulla.18294?mibextid=ZbWKwL" className="icon i-facebook" rel="noreferrer">
                         <FacebookIcon />
                     </a>
-                    <a target="_blank" href="https://github.com/ImranProgrammer10" className="icon i-github">
+                    <a target="_blank" href="https://github.com/ImranProgrammer10" className="icon i-github" rel="noreferrer">
                         <GithubIcon />
                     </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/imran-hossain-936595216" className="icon i-youtube">
+                    <a target="_blank" href="https://www.linkedin.com/in/imran-hossain-936595216" className="icon i-youtube" rel="noreferrer">
                         <LinkedInIcon />
                     </a>
                 </div>
