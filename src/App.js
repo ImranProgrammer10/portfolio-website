@@ -1,17 +1,16 @@
- import { Route, Routes } from 'react-router-dom';
-import styled from 'styled-components';
-import Sidebar from './Components/Sidebar';
-import HomePage from './Pages/HomePage';
-import AboutPage from './Pages/AboutPage';
+ import { IconButton, Switch } from '@material-ui/core';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
-import PortfoliosPage from './Pages/PortfoliosPage';
+import { useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import styled from 'styled-components';
+import Sidebar from './Components/Sidebar';
+import AboutPage from './Pages/AboutPage';
 import ContactPage from './Pages/ContactPage';
-import ResumePage from './Pages/ResumePage';
-import { useState } from 'react';
-import { useEffect } from 'react';
-import { IconButton, Switch } from '@material-ui/core';
+import HomePage from './Pages/HomePage';
 import NotFound from './Pages/NotFound';
+import PortfoliosPage from './Pages/PortfoliosPage';
+import ResumePage from './Pages/ResumePage';
 
 function App() {
   const [theme, setTheme] = useState('dark-theme');
@@ -33,7 +32,7 @@ function App() {
   }
 
   return (
-    <div onClick={() => setNavToggle(!navToggle)} className="App">
+    <div   className="App">
         <Sidebar navToggle={navToggle} />
 
         <div className="theme">

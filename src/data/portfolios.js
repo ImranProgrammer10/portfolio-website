@@ -66,6 +66,15 @@ const portfolios = [
     },
     {
         id: 2,
+        category: 'MERN STACK',
+        image: 'https://i.ibb.co/wQJNG2C/ecommerce.png',
+        link1: 'https://github.com/ImranProgrammer10/mb10-ecommerce-client',
+        link2: 'https://mb10-ecommerce.web.app/',
+        title: 'MB10 E-COMMERCE SITE',
+        text: 'Created using different technologies such as Tailwind ,Firebase, Mern and more...'
+    },
+    {
+        id: 3,
         category: 'React JS',
         image: react1,
         link1: 'https://github.com/ImranProgrammer10/rahmatknittex',
