@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { pdfjs } from 'react-pdf';
+
 import styled from 'styled-components';
 import resume from '../img/about.jpg';
 import PrimaryButton from './PrimaryButton';
+  pdfjs.GlobalWorkerOptions.workerSrc=`//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
 
 function ImageSection() {
     return (
@@ -33,7 +36,19 @@ function ImageSection() {
                         <p>: Freelance</p>
                     </div>
                 </div>
-                <PrimaryButton title={'Download Cv'} />
+             
+                
+                <a
+     className="button"
+     href="https://drive.google.com/file/d/1adv6pzRZHKe4Q06NCNMdaSSt2MlOZxiP/view?usp=share_link"
+     download = "https://drive.google.com/file/d/1adv6pzRZHKe4Q06NCNMdaSSt2MlOZxiP/view?usp=share_link"
+     
+     >
+          <PrimaryButton title={`Download CV`}></PrimaryButton>
+      
+  
+  </a>
+               
             </div>
         </ImageSectionStyled>
     )
