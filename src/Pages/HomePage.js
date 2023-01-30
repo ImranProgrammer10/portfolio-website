@@ -2,6 +2,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import PrimaryButton from '../Components/PrimaryButton';
 import Particle from './Particle';
@@ -13,6 +14,7 @@ import Particle from './Particle';
  
 
 function HomePage() {
+   
     return (
         <HomePageStyled>
             <div className="particle-con">
@@ -23,10 +25,10 @@ function HomePage() {
                 <p style={{"fontSize":"70px"}}>
                     Full Stack Web Developer
                 </p>
-                <a href="/contact">
+                <Link to="/contact">
                 <PrimaryButton     sx={{ m: 3 }} title={'Get In Touch'} ></PrimaryButton>
 
-                </a>
+                </Link>
                
                 <div className="icons">
                     <a target="_blank" href="https://www.facebook.com/imran.mulla.18294?mibextid=ZbWKwL" className="icon i-facebook" rel="noreferrer">
