@@ -1,5 +1,6 @@
  
 import react1 from '../img/portImages/garment.png';
+import organicshop from '../img/portImages/organicshop.jpg';
  
 
 const portfolios = [
@@ -79,8 +80,17 @@ const portfolios = [
         image: react1,
         link1: 'https://github.com/ImranProgrammer10/rahmatknittex',
         link2: 'https://vermillion-kataifi-9c7a89.netlify.app/',
-        title: 'Responsive Portfolio Website',
+        title: 'Garment Website',
         text: 'Created using different technologies such as Material UI, Styled-Components and more...'
+    },
+    {
+        id: 4,
+        category: 'MERN STACK',
+        image: organicshop,
+        link1: 'https://github.com/ImranProgrammer10/E-commerce-app-2023',
+        link2: 'https://lovely-underclothes-dog.cyclic.app/',
+        title: 'Organic E commerce Site',
+        text: 'Created using different technologies such as Bootstrap , Styled-Components,Full Stack Mern E commerce Site and more...'
     },
     // {
     //     id: 7,
